@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      defer
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <header>
+    <div class="box">
+    <H1>Component: Offcanvas</H1>
+    </div>
+  </header>
+  <body>
+    <div class="div-pad"><h2>This is to demostrate how the <b><i>offcanvas</i></b> component from bootstrap works</h2>
+    <p>This component can be used in an online shop where with a click of a button it can show the current cart. It can also be used to show any type of information that the programer decides. <br>
+    What im going to show in this page is some browser information.</p></div>
+    <div>
+        <button class="btn modern-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Click Here</button>
+    </div>
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdrop">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel">Browser Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul id="browser-info"></ul>
+            </div>
+<!-- Script to gather browser info -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Display browser information
+        const browserInfo = document.getElementById('browser-info');
+        const browserData = [
+            { label: 'User Agent', value: navigator.userAgent },
+            { label: 'Platform', value: navigator.platform },
+            { label: 'Language', value: navigator.language },
+            { label: 'Cookies Enabled', value: navigator.cookieEnabled },
+            { label: 'Online', value: navigator.onLine }
+        ];
+
+        browserData.forEach(info => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${info.label}: ${info.value}`;
+            browserInfo.appendChild(listItem);
+        });
+    });
+</script>
+    
+  </body>
+</html>
