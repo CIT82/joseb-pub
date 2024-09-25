@@ -41,486 +41,180 @@
     <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
+<!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
     <a href="index.html" class="navbar-brand d-flex align-items-center">
-        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-simplus.png" alt="" style="width: 45px;">Simplus Scanner App</h2>
+        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="Simplus Scanner" style="width: 45px;">Simplus Scanner App</h2>
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-4 py-lg-0">
-            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="index.html" class="nav-item nav-link active">Home</a>
             <a href="about.html" class="nav-item nav-link">About Us</a>
-            <a href="features.html" class="nav-item nav-link">Features</a>
-            <a href="roadmap.html" class="nav-item nav-link">Roadmap</a>
-            <a href="404.html" class="nav-item nav-link">Pricing</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
-        </div>
-        <div class="h-100 d-lg-inline-flex align-items-center d-none">
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href="#"><i class="fab fa-youtube"></i></a>
+            
+            <!-- Features Dropdown with Individual Pages -->
+            <div class="nav-item dropdown">
+                <a href="features.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="features.html" class="dropdown-item">Main Features Page</a> <!-- Link to main features page -->
+                    <a href="barcode.html" class="dropdown-item">Barcode Scanning</a> <!-- Individual feature page -->
+                    <a href="data-management.html" class="dropdown-item">Data Management</a> <!-- Individual feature page -->
+                    <a href="csv-export.html" class="dropdown-item">CSV Export</a> <!-- Individual feature page -->
+                    <a href="history.html" class="dropdown-item">Scan History</a> <!-- Individual feature page -->
+                    <a href="cloud-sync.html" class="dropdown-item">Cloud Sync</a> <!-- Individual feature page -->
+                    <a href="real-time-analysis.html" class="dropdown-item">Real-time Analysis</a> <!-- Individual feature page -->
+                </div>
+            </div>
+            
+            <a href="pricing.html" class="nav-item nav-link">Pricing</a> <!-- Added Pricing link -->
+            
+            <!-- Support Dropdown -->
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Support</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="support.html" class="dropdown-item">Support Overview</a> <!-- Link to main support page -->
+                    <a href="roadmap.html" class="dropdown-item">Roadmap</a> <!-- Moved Roadmap here -->
+                    <a href="faq.html" class="dropdown-item">FAQs</a>
+                    <a href="contact.html" class="dropdown-item">Contact Us</a>
+                    <a href="privacy.html" class="dropdown-item">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <a href="terms.html" class="nav-item nav-link">Terms & Conditions</a>
         </div>
     </div>
 </nav>
 <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-4 mb-3 animated slideInDown">Make Better Life With Trusted CryptoCoin</h1>
-                    <p class="animated slideInDown">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-                        magna dolore erat amet</p>
-                    <a href="" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
-                </div>
-                <div class="col-lg-6 animated fadeIn">
-                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
-                        alt="">
-                </div>
+
+   <!-- Header Start -->
+<div class="container-fluid hero-header bg-light py-5 mb-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 mb-3 animated slideInDown">Simplify Your Life with Simplus Scanner</h1>
+                <p class="animated slideInDown">Effortlessly scan barcodes and manage your items with our intuitive app. 
+                    Track your inventory, export data easily, and enjoy cloud sync features. Say goodbye to tedious 
+                    manual entries and embrace the simplicity of smart scanning.</p>
+                <a href="features.html" class="btn btn-primary py-3 px-4 animated slideInDown">Explore Features</a>
+            </div>
+            <div class="col-lg-6 animated fadeIn">
+                <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/app-store.png" alt="Simplus Scanner App">
             </div>
         </div>
     </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="img/about.png" alt="">
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h1 class="display-6">About Us</h1>
-                        <p class="text-primary fs-5 mb-4">The Most Trusted Cryptocurrency Platform</p>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                        </p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                        <div class="d-flex align-items-center mb-2">
-                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
-                            <span>Tempor erat elitr rebum at clita</span>
-                        </div>
-                        <div class="d-flex align-items-center mb-2">
-                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
-                            <span>Tempor erat elitr rebum at clita</span>
-                        </div>
-                        <div class="d-flex align-items-center mb-4">
-                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
-                            <span>Tempor erat elitr rebum at clita</span>
-                        </div>
-                        <a class="btn btn-primary py-3 px-4" href="">Read More</a>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid" src="img/about.png" alt="Simplus Scanner App">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="h-100">
+                    <h1 class="display-6">About Us</h1>
+                    <p class="text-primary fs-5 mb-4">Your Trusted Barcode Scanning Solution</p>
+                    <p>At Simplus Scanner, we are dedicated to simplifying your life through advanced barcode scanning technology. 
+                    Our app is designed to help you manage your items effortlessly, whether you are tracking inventory at home, 
+                    in a store, or for a business.</p>
+                    <p class="mb-4">With features like real-time data management, cloud synchronization, and easy CSV exports, 
+                    Simplus Scanner makes organization and tracking easier than ever before. We believe in empowering our users 
+                    with the tools they need to succeed.</p>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Easy barcode scanning for all your needs</span>
                     </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Efficient inventory tracking and management</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Seamless cloud sync for your data</span>
+                    </div>
+                    <a class="btn btn-primary py-3 px-4" href="features.html">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-xxl bg-light py-5 my-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
-                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
-                    <p class="fs-5 text-primary mb-0">Today Transactions</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <img class="img-fluid mb-4" src="img/icon-10.png" alt="">
-                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
-                    <p class="fs-5 text-primary mb-0">Monthly Transactions</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
-                    <p class="fs-5 text-primary mb-0">Total Transactions</p>
-                </div>
+   <!-- Facts Start -->
+<div class="container-xxl bg-light py-5 my-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
+                <img class="img-fluid mb-4" src="img/icon-9.png" alt="Transactions Today">
+                <h1 class="display-4" data-toggle="counter-up">5000</h1>
+                <p class="fs-5 text-primary mb-0">Scans Today</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
+                <img class="img-fluid mb-4" src="img/icon-10.png" alt="Transactions This Month">
+                <h1 class="display-4" data-toggle="counter-up">150000</h1>
+                <p class="fs-5 text-primary mb-0">Scans This Month</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
+                <img class="img-fluid mb-4" src="img/icon-2.png" alt="Total Transactions">
+                <h1 class="display-4" data-toggle="counter-up">1,200,000</h1>
+                <p class="fs-5 text-primary mb-0">Total Scans</p>
             </div>
         </div>
     </div>
-    <!-- Facts End -->
+</div>
+<!-- Facts End -->
 
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">Why Us!</h1>
-                <p class="text-primary fs-5 mb-5">The Best In The crypto Industry</p>
+<!-- Roadmap Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6">Roadmap</h1>
+            <p class="text-primary fs-5 mb-5">Turning Vision Into Reality</p>
+        </div>
+        <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q1 2024</h5>
+                <span>Launch of Simplus Scanner with core features: barcode scanning, data management, and scan history.</span>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">Easy To Start</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">Safe & Secure</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">Affordable Plans</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">Secure Storage</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">Protected By Insurance</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-start">
-                        <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="">
-                        <div class="ps-4">
-                            <h5 class="mb-3">24/7 Support</h5>
-                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                clita duo justo</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q3 2024</h5>
+                <span>Implementation of CSV export functionality for easy data sharing and analysis.</span>
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q1 2025</h5>
+                <span>Introduction of cloud sync feature for seamless access to scanned data across devices.</span>
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q3 2025</h5>
+                <span>Launch of real-time analysis tools to provide insights into inventory trends and usage patterns.</span>
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q1 2026</h5>
+                <span>Expansion of app features based on user feedback, including enhanced data visualization tools.</span>
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Q3 2026</h5>
+                <span>Integration with third-party applications and APIs for broader functionality and user customization.</span>
             </div>
         </div>
     </div>
-    <!-- Features End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl bg-light py-5 my-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">Services</h1>
-                <p class="text-primary fs-5 mb-5">Buy, Sell And Exchange Cryptocurrency</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
-                        <h5 class="mb-3">Currency Wallet</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h5 class="mb-3">Currency Transaction</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
-                        <h5 class="mb-3">Bitcoin Investment</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
-                        <h5 class="mb-3">Currency Exchange</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h5 class="mb-3">Bitcoin Escrow</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
-                        <h5 class="mb-3">Token Sale</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- Roadmap Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">Roadmap</h1>
-                <p class="text-primary fs-5 mb-5">We Translate Your Dream Into Reality</p>
-            </div>
-            <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>January 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>March 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>May 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>July 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>September 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-                <div class="roadmap-item">
-                    <div class="roadmap-point"><span></span></div>
-                    <h5>November 2045</h5>
-                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Roadmap End -->
-
-
-    <!-- Token Sale Start -->
-    <div class="container-xxl bg-light py-5 my-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">Token Sale</h1>
-                <p class="text-primary fs-5 mb-5">Token Sale Countdown</p>
-            </div>
-            <div class="row g-3">
-                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
-                        <span class="text-primary fs-5">Days</span>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
-                        <span class="text-primary fs-5">Hours</span>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
-                        <span class="text-primary fs-5">Minutes</span>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="bg-white text-center p-3">
-                        <h1 class="mb-0">0</h1>
-                        <span class="text-primary fs-5">Seconds</span>
-                    </div>
-                </div>
-                <div class="col-12 text-center py-4">
-                    <a class="btn btn-primary py-3 px-4" href="">Buy Token</a>
-                </div>
-                <div class="col-12 text-center">
-                    <img class="img-fluid m-1" src="img/payment-1.png" alt="" style="width: 50px;">
-                    <img class="img-fluid m-1" src="img/payment-2.png" alt="" style="width: 50px;">
-                    <img class="img-fluid m-1" src="img/payment-3.png" alt="" style="width: 50px;">
-                    <img class="img-fluid m-1" src="img/payment-4.png" alt="" style="width: 50px;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Token Sale Start -->
-
-
-    <!-- FAQs Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">FAQs</h1>
-                <p class="text-primary fs-5 mb-5">Frequently Asked Questions</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How to build a website?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How long will it take to get a new website?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Do you only create HTML websites?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                    Will my website be mobile-friendly?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Will you maintain my site for me?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                            <h2 class="accordion-header" id="headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    I’m on a strict budget. Do you have any low cost options?
-                                </button>
-                            </h2>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
-                            <h2 class="accordion-header" id="headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                    Will you maintain my site for me?
-                                </button>
-                            </h2>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                            <h2 class="accordion-header" id="headingEight">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                    I’m on a strict budget. Do you have any low cost options?
-                                </button>
-                            </h2>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
-                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FAQs Start -->
+</div>
+<!-- Roadmap End -->
 
 
 <!-- Footer Start -->

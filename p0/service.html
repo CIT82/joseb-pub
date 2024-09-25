@@ -42,7 +42,8 @@
     <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
     <a href="index.html" class="navbar-brand d-flex align-items-center">
-        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-simplus.png" alt="" style="width: 45px;">Simplus Scanner App</h2>
+        <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="Simplus Scanner"
+                style="width: 45px;">Simplus Scanner App</h2>
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -51,16 +52,35 @@
         <div class="navbar-nav ms-auto py-4 py-lg-0">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link">About Us</a>
-            <a href="features.html" class="nav-item nav-link">Features</a>
+            
+            <!-- Features Dropdown with Individual Pages -->
+            <div class="nav-item dropdown">
+                <a href="features.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="features.html" class="dropdown-item">Main Features Page</a> <!-- Link to main features page -->
+                    <a href="barcode.html" class="dropdown-item">Barcode Scanning</a> <!-- Individual feature page -->
+                    <a href="data-management.html" class="dropdown-item">Data Management</a> <!-- Individual feature page -->
+                    <a href="csv-export.html" class="dropdown-item">CSV Export</a> <!-- Individual feature page -->
+                    <a href="history.html" class="dropdown-item">Scan History</a> <!-- Individual feature page -->
+                    <a href="cloud-sync.html" class="dropdown-item">Cloud Sync</a> <!-- Individual feature page -->
+                    <a href="real-time-analysis.html" class="dropdown-item">Real-time Analysis</a> <!-- Individual feature page -->
+                </div>
+            </div>
+            
             <a href="roadmap.html" class="nav-item nav-link">Roadmap</a>
-            <a href="404.html" class="nav-item nav-link">Pricing</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
-        </div>
-        <div class="h-100 d-lg-inline-flex align-items-center d-none">
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href="#"><i class="fab fa-youtube"></i></a>
+            
+            <!-- Support Dropdown -->
+            <div class="nav-item dropdown">
+                <a href="support.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Support</a>
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="support.html" class="dropdown-item">Support Overview</a> <!-- Link to main support page -->
+                    <a href="faq.html" class="dropdown-item">FAQs</a>
+                    <a href="contact.html" class="dropdown-item">Contact Us</a>
+                    <a href="privacy.html" class="dropdown-item">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <a href="terms.html" class="nav-item nav-link">Terms & Conditions</a>
         </div>
     </div>
 </nav>
